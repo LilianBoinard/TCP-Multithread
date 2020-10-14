@@ -66,5 +66,5 @@ while True:
     start_new_thread(threaded_client, (Client, ))
     threadCount += 1
     print('Thread Number: ' + str(threadCount))
-    command = input("test") # A CONTINUER
+    # command = input("test") # A CONTINUER
 Server.close()
